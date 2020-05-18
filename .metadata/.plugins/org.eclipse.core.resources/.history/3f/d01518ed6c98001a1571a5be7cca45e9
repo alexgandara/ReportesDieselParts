@@ -471,18 +471,6 @@ public class v21printPDF {
 			}
 			
 
-			// tipo de cambio
-			if (!Cabecera.get_descripcion_documento().equals("CreditNote")) {
-				// Cabecera.get_servicio()
-				canvas.saveState();                               // q
-				canvas.beginText();                               // BT
-				canvas.moveText(508, 628);                         // 36 788 Td
-				canvas.setFontAndSize(bf_web, 10); // /F1 12 Tf
-				canvas.showText(Cabecera.get_tipo_cambio());	        // (Hello World)Tj
-				canvas.endText();                                 // ET
-				canvas.restoreState();                            // Q
-				}
-		
 
 
 

@@ -75,7 +75,7 @@ public class factura_cabecera {
 	public String _linea08;
 	public String _profile;
 	public String _servicio;
-	
+	public String _tipo_cambio;
 	
 	
 	
@@ -87,6 +87,12 @@ public class factura_cabecera {
 	
 		
 	
+	public String get_tipo_cambio() {
+		return _tipo_cambio;
+	}
+	public void set_tipo_cambio(String _tipo_cambio) {
+		this._tipo_cambio = _tipo_cambio;
+	}
 	public String get_servicio() {
 		return _servicio;
 	}

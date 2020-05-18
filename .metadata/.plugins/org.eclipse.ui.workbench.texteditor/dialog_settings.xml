@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="igv" key="selection"/>
+		<item value="guia" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="GUIA"/>
+			<item value="CAMPO2"/>
 			<item value="igv"/>
 			<item value="_total"/>
 			<item value="_signo"/>
 			<item value="_total_linea"/>
 			<item value="_condicion_pago"/>
 			<item value="ruc_rece"/>
-			<item value="ruc__rece"/>
-			<item value="DOLARE"/>
 		</list>
 		<list key="replacehistory">
 		</list>

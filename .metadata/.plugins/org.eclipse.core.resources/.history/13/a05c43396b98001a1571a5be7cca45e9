@@ -408,8 +408,6 @@ public class v21readXML {
 
 
 			// TIPO DE CAMBIO
-			Cabecera.set_tipo_cambio("");
-			
 			NodeList nList_cambio = doc.getElementsByTagName("cbc:ID");
 			Node nNode_cambio = nList_cambio.item(3);
 			Cabecera.set_tipo_cambio(nNode_cambio.getTextContent());
